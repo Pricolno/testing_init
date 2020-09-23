@@ -100,9 +100,7 @@ if __name__ == '__main__':
     print(calculator.add(1, 2, 3, 5.1).multiply(4, 0.123).subtract(4, 1, -100).divide(5, integer_divide=True))
     print(Calculator(100).value + 10)
     print(calculator.assign(5).value)
-    print(calculator.power(2))
-    print(calculator.assign(81))
-    print(calculator.root(2).value)
+    print(calculator.assign(10).power(15).add(214).root(5).divide(5,21).power(8))
 
 
     # time_finish = clock()
